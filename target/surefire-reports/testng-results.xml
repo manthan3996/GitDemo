@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-30T15:01:03 IST" name="Suite" finished-at="2024-05-30T15:01:23 IST" duration-ms="19975">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:testselenium.SeleniumTest.ErrorValidationsTest@7eecb5b8]" name="LoginErrorValidation" class="testselenium.SeleniumTest.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:testselenium.SeleniumTest.SubmitOrderTest@6f10d5b6]" name="submitOrder" class="testselenium.SeleniumTest.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-05-30T15:01:03 IST" name="ErrorValidationsTest" finished-at="2024-05-30T15:01:18 IST" duration-ms="14726">
+      <class name="testselenium.SeleniumTest.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testselenium.SeleniumTest.ErrorValidationsTest@7eecb5b8]" started-at="2024-05-30T15:01:03 IST" name="launchApplication" finished-at="2024-05-30T15:01:13 IST" duration-ms="10058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:testselenium.SeleniumTest.ErrorValidationsTest@7eecb5b8]" started-at="2024-05-30T15:01:13 IST" name="LoginErrorValidation" finished-at="2024-05-30T15:01:14 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testselenium.SeleniumTest.ErrorValidationsTest@7eecb5b8]" started-at="2024-05-30T15:01:14 IST" name="closeBrowser" finished-at="2024-05-30T15:01:14 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testselenium.SeleniumTest.ErrorValidationsTest@7eecb5b8]" started-at="2024-05-30T15:01:14 IST" name="launchApplication" finished-at="2024-05-30T15:01:16 IST" duration-ms="1827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:testselenium.SeleniumTest.ErrorValidationsTest@7eecb5b8]" started-at="2024-05-30T15:01:16 IST" name="ProductErrorValidation" finished-at="2024-05-30T15:01:18 IST" duration-ms="2123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testselenium.SeleniumTest.ErrorValidationsTest@7eecb5b8]" started-at="2024-05-30T15:01:18 IST" name="closeBrowser" finished-at="2024-05-30T15:01:18 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testselenium.SeleniumTest.ErrorValidationsTest -->
+    </test> <!-- ErrorValidationsTest -->
+    <test started-at="2024-05-30T15:01:03 IST" name="SubmitOrderTest" finished-at="2024-05-30T15:01:23 IST" duration-ms="19975">
+      <class name="testselenium.SeleniumTest.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testselenium.SeleniumTest.SubmitOrderTest@6f10d5b6]" started-at="2024-05-30T15:01:03 IST" name="launchApplication" finished-at="2024-05-30T15:01:07 IST" duration-ms="3459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:testselenium.SeleniumTest.SubmitOrderTest@6f10d5b6]" started-at="2024-05-30T15:01:07 IST" name="submitOrder" data-provider="getData" finished-at="2024-05-30T15:01:11 IST" duration-ms="4580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Password@1234567, email=msacademy1@yopmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testselenium.SeleniumTest.SubmitOrderTest@6f10d5b6]" started-at="2024-05-30T15:01:11 IST" name="closeBrowser" finished-at="2024-05-30T15:01:12 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testselenium.SeleniumTest.SubmitOrderTest@6f10d5b6]" started-at="2024-05-30T15:01:12 IST" name="launchApplication" finished-at="2024-05-30T15:01:22 IST" duration-ms="10801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:testselenium.SeleniumTest.SubmitOrderTest@6f10d5b6]" started-at="2024-05-30T15:01:22 IST" name="orderHistoryTest" finished-at="2024-05-30T15:01:23 IST" depends-on-methods="testselenium.SeleniumTest.SubmitOrderTest.submitOrder" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testselenium.SeleniumTest.SubmitOrderTest@6f10d5b6]" started-at="2024-05-30T15:01:23 IST" name="closeBrowser" finished-at="2024-05-30T15:01:23 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testselenium.SeleniumTest.SubmitOrderTest -->
+    </test> <!-- SubmitOrderTest -->
+  </suite> <!-- Suite -->
+</testng-results>
